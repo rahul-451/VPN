@@ -1,0 +1,253 @@
+@media (max-width:860px) {
+    label[for="icon"] {
+        width: 30px;
+        height: 30px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        position: relative;
+        z-index: 3;
+        cursor: pointer;
+    }
+
+    label[for="icon"]>span {
+        width: 100%;
+        background-color: red;
+        height: 5px;
+        border-radius: 2px;
+    }
+
+    ul.mobile-view {
+        background-color: white;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        position: fixed;
+        right: -100%;
+        top: 0;
+        z-index: 2;
+        transition: all 300ms linear;
+    }
+
+    input[type="checkbox"]:checked+ul {
+        right: 0;
+        gap: 58px;
+    }
+
+
+  
+}
+  @media (max-width:1050px) {
+      .btn-1 {
+          margin-left: -30px;
+      }
+
+      .mr-40 {
+          margin-right: 20px;
+      }
+  }
+
+
+
+@media (max-width:992px) {
+    .col-lg-12 {
+        width: 100%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .my-50 {
+        margin-left: 20px;
+        margin-right: 10px;
+    }
+
+    .butn {
+        margin-left: -34px;
+    }
+
+    .btn-card {
+        height: 300px;
+        border: none;
+        overflow: hidden;
+        background-color: transparent;
+        padding: 0 70px;
+    }
+
+    .pt-186 {
+        padding-top: 350px;
+    }
+
+    .absolute {
+        position: absolute;
+        top: 0;
+        /* left: 50%;
+        transform: translateX(-50%); */
+    }
+
+    .pb-200 {
+        padding-bottom: 100px;
+    }
+
+    .subscibe {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .subscibe h2 {
+        margin-bottom: -10px;
+    }
+
+    .subscibe p {
+        display: flex;
+        align-items: center;
+    }
+
+    .line {
+        display: none;
+    }
+
+    .py-72 {
+        padding: 0;
+    }
+
+    .ml-39 {
+        margin-left: 39px;
+    }
+
+    .ml-15 {
+        margin-left: 15px;
+    }
+
+    .cent {
+        display: flex;
+        justify-content: center;
+        padding-bottom: 30px;
+    }
+}
+
+@media (max-width:1050px) {
+    .col-lg-6 {
+        width: 50%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .col-lg-4 {
+        width: 33.33%;
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+
+    .center {
+        position: relative;
+        left: 17%;
+    }
+
+    .box-slider {
+        width: 400px;
+        height: 250px !important;
+        border-radius: 10px;
+        border: 2px solid #DDDDDD;
+        background: #FFF;
+        padding: 30px;
+    }
+
+    .col-center {
+        position: relative;
+        left: 23%;
+        padding-top: 30px;
+    }
+
+    @media (max-width:768px) {
+        .col-md-12 {
+            width: 100%;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        .col-md-6 {
+            width: 50%;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        .center {
+            left: 0;
+        }
+
+        .col-center {
+            left: 0;
+            padding: 0;
+        }
+
+        .md-center {
+            display: flex;
+            justify-content: center;
+            padding-bottom: 30px;
+        }
+
+        .mt-235 {
+            margin-top: 235px;
+            padding-bottom: 40px;
+        }
+
+        .pb-30 {
+            padding-bottom: 30px;
+        }
+
+    }
+
+    @media (max-width:400px) {
+        .box-slider {
+            width: 600px;
+            height: 300px !important;
+            border-radius: 10px;
+            border: 2px solid #DDDDDD;
+            background: #FFF;
+            padding: 30px;
+        }
+    }
+
+    @media (max-width:576px) {
+        .col-sm-6 {
+            width: 50%;
+            padding-left: 12px;
+            padding-right: 12px;
+        }
+
+        .card {
+            width: 100%;
+            height: 400px;
+        }
+
+        .butn {
+            padding: 10.5px 28px !important;
+            font-size: 13px;
+            margin-top: 10px;
+        }
+
+        .subscibe h2 {
+            font-size: 25px;
+            line-height: 35px;
+            padding-top: 50px;
+        }
+
+        .btn-card {
+            /* height: 300px; */
+            border: none;
+            overflow: scroll;
+            background-color: transparent;
+            padding: 0 70px;
+            margin-bottom: 50px;
+        }
+
+        .ml-45 {
+            margin-left: 0;
+        }
+    }
+}
